@@ -22,7 +22,9 @@ img
         line-height: 35px
         +bold
         color: $text-color
+        text-align: center
     &-subtitle
+        display: block
         font-size: 16px
         color: $text-color
 .input 
@@ -30,10 +32,16 @@ img
     border-radius: 10.0px
     font-size: 15px
     padding: 20px 26px
+.arrow
+    &-left, &-right
+        cursor: pointer
 @media ( max-width: 1200px )
     .container
         width: 760px
 @media ( max-width: 768px )
     .container
         max-width: 580px 
-        width: 95%       
+        width: 95% 
+    .section
+        &-title
+            font-size: 18px     
