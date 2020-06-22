@@ -7,7 +7,7 @@
         url('../fonts/MuseoSansCyrl/MuseoSansCyrl-300.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
-    font-display: swap;
+    font-display: auto;
 }
 
 @font-face {
@@ -19,7 +19,7 @@
         url('../fonts/MuseoSansCyrl/MuseoSansCyrl-700.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
+    font-display: auto;
 }
 
 @mixin reg {
