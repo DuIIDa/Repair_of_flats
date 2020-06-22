@@ -3,7 +3,6 @@
 $(document).ready(function () {
     const button = $('#button');
     const model = $('.model');
-    console.log('model: ', model);
 
     const isOpen = () => {
         model.toggleClass('model_active');
